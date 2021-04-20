@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h3>Navigation</h3>
+        <span class="menu-btn">&#9776;</span>
+        <nav class="display-nav">
+          <ul>
+            <li>Psd websites</li>
+            <li>ui kits</li>
+            <li>premium psd files</li>
+            <li>about</li>
+            <li>blog</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Awesome Free PSD Templates & Resources</h1>
+        <h3>www.BlazRobar.com</h3>
+      </div>
+    </main>
+    <div class="wrapper">
+      <div class="row1">
+        <span>I'm like the Robin Hood of PSD files</span>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="arrow">></div>
+      <img src="pic1.jpg" alt="" />
+      <img src="pic2.jpg" alt="" />
+    </div>
+    <footer>
+      <div class="container container-footer">
+        <h2>BlazRobar.com</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nam
+          atque assumenda ipsa sed neque officia eaque delectus. Similique
+          voluptatum accusamus, rerum dicta pariatur dolores temporibus
+          voluptatem ea iusto autem? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Minima alias neque asperiores vel itaque? Nemo harum
+          eveniet beatae sequi temporibus labore? Exercitationem neque rerum,
+          aspernatur veniam nobis itaque aliquid ex!
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate
+          repudiandae reiciendis quos nobis suscipit animi officia nisi quae
+          rerum? Exercitationem cupiditate repellendus saepe quasi quas quaerat
+          velit sequi porro modi.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nam
+          atque assumenda ipsa sed neque officia eaque delectus. Similique
+          voluptatum accusamus, rerum dicta pariatur dolores temporibus
+          voluptatem ea iusto autem? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Minima alias neque asperiores vel itaque? Nemo harum
+          eveniet beatae sequi temporibus labore? Exercitationem neque rerum,
+          aspernatur veniam nobis itaque aliquid ex!
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate
+          repudiandae reiciendis quos nobis suscipit animi officia nisi quae
+          rerum? Exercitationem cupiditate repellendus saepe quasi quas quaerat
+          velit sequi porro modi.
+        </p>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    const menuBtn = document.querySelector(".menu-btn");
+    const nav = document.querySelector("nav");
+    menuBtn.addEventListener("click", (e) => {
+        if (nav.className === "display-nav") {
+        nav.className = "";
+    } else {
+        nav.className = "display-nav"
+    }
+    })
+  </script>
+</html>
